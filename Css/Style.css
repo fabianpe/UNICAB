@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*---------HEADER--------*/
+
+
+#cabeceralogo{
+    width: 96%;
+    height: 74px;
+    padding: 0% 2%;
+    background-color: #1F466E;
+}
+   
+.titulologo{
+    width: 960px;
+    margin: 0% auto;
+    padding-top: 16px;
+}
+
+#cabeceralogo h1{
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+   
+/*---------MENÚ PRINCIPAL--------*/
+
+
+#menuprincipal{
+    width: 96%;
+    height: 45px;
+    padding: 0% 2%;
+    background-color: #fff;
+    border-top: 1px solid #7f54e6;
+    border-bottom: 2px solid #E3E3E3;
+    }
+
+ #menuprincipal > div{
+    width: 960px;
+    margin: 0px auto;
+
+ }   
+
+ #menuprincipal li{
+    display: inline-block;
+    height: 34px;
+    padding: 10px 10px 0px 10px;
+    float: right;
+ }
+
+ #menuprincipal a:hover{
+    font-weight: bold;
+    color: #111111;
+    border-bottom: 2px solid #1F466E;
+ }
+
+
+ #menuprincipal a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #111111;
+ }
+
+
+
+ /*----------BANNER---------*/
+
+ .banner{
+    width: 100%;
+    margin: 0 0 10px 0;
+    height: 300px;
+    overflow: hidden;
+ }
+
+ .banner img{
+    width: 100%;
+    position:static;
+    margin: -auto 0 0 0;
+    /*----------filtro para la imagen---------*/
+
+    
+ }
+ 
+    
+
+ .baner img{
+    
+    width: auto;
+    height: 300px ;
+    position:static;
+    margin: -auto 0 0 0;
+    
+   
+ }
+
+ .baner img{
+    width: 100%;
+    position:static;
+    margin: -auto 0 0 0;
+ }
+ 
+ /*----------MAIN---------*/
+
+main{
+    width: 100%;
+    background-color: #fff;
+    background-repeat: no-repeat;
+}
+
+
+main > div{
+    width: 960px;
+    margin: 0px auto;
+}
+
+
+#intro{
+    background-color: #fff;
+}
+
+#articulosprincipales{
+    float: left;
+    width: auto;
+    padding-top: 30px;
+    background-color: #fff;
+}
+
+#articulos{
+    float: left;
+    width: 600px;
+    padding-top: 30px;
+    background-color: #fff;
+}
+
+
+#infoadicional{
+    float: right;
+    width: 280px;
+    padding: 20px;
+    background-color: #f7f8ff;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0,15);
+    border: 1px solid #E3E3E3;
+    
+}
+
+#infopensamientos{
+    float: right;
+    width: 280px;
+    padding: 20px;
+    
+    
+}
+
+#infoadicional h3{
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 15px;
+    text-align: center;    
+}
+
+.wrapperfoto{
+    position: relative;
+    width: 200px;
+    height: 230px;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+}
+
+.fotoperfil{
+    position: relative;
+    width: auto;
+    height: 100%;
+}
+
+
+.fotoperfil:hover{
+    transform: scale(1.1,1.1);
+}
+
+.infofoto{
+    width: 204px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #fff;
+    border-bottom: 3px solid #1F466E;
+}
+
+
+
+#infoadicional p{
+    text-align: center;
+}
+
+/*---Boton--*/
+.Button {
+	box-shadow: 0px 0px 14px -7px #1F466E;
+	background:linear-gradient(to bottom, #1F466E 5%, #1F466E 100%);
+	background-color:#599bb3;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:21px;
+	font-weight:bold;
+	font-style:italic;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 6px #1F466E;
+}
+
+
+.Button:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.negrita{
+    font-weight: bold;
+    font-size: 20px;
+}
+.recuperar{
+    clear: both;
+}
+
+
+.bio{
+    font-size: 30px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #fff;
+    border-bottom: 3px solid #1F466E;
+    
+}
+.bio1{
+    font-size: 25px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #fff;
+    border-bottom: 3px solid #1F466E;
+    
+}
+
+.biotexto{
+    font-size: 16px;
+    
+}
+.description{
+    border-bottom: 3px solid #1F466E;
+    
+}
+
+
+/*------SECCIONES---------*/
+
+
+.seccion1{
+    width: 100%;
+    background-color: #f7f8ff;
+}
+
+
+.ingles{
+    width: 960px;
+    margin: 0px auto;
+}
+
+
+.seccion2{
+    width: 100%;
+    background-color: #fff;
+}
+
+
+.espanol{
+    width: 960px;
+    margin: 0px auto;
+}
+
+.seccion3{
+    width: 100%;
+    background-color: #f7f8ff;
+}
+
+
+.numerico{
+    width: 960px;
+    margin: 0px auto;
+}
+
+
+.seccion4{
+    width: 100%;
+    background-color: #fff;
+}
+
+
+.social{
+    width: 960px;
+    margin: 0px auto;
+}
+
+
+.seccion5{
+    width: 100%;
+    background-color: #f7f8ff;
+}
+
+
+.bioetico{
+    width: 960px;
+    margin: 0px auto;
+}
+
+/*--VIDEOS--*/
+
+
+
+
+/*---FOOTER---*/
+
+#piepagina{
+    width: 96%;
+    padding: 2% 2% 0 2%;
+    background-color: #111111;
+}
+
+
+
+.cajapie{
+    width: 960px;
+    margin: 0px auto;
+    background-color: #1d1d1d;
+    border-radius: 35px 35px 0 0;
+}
+
+.seccionpie{
+    float: left;
+    width: 270px;
+    padding: 25px;
+}
+
+.seccionpie h4{
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+
+.seccionpie{
+    margin-top: 5px;
+    color: #bbbbbb;
+    font-size: 14px;
+}
+
+.seccionpie a{
+    color: #bbbbbb;
+    font-size: 25px;
+    text-decoration: none;
+    padding-left: 3px;
+}
+
+.seccionpie a:hover{
+    color: #1F466E;
+}
+
+
